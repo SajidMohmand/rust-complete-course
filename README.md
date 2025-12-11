@@ -1,47 +1,84 @@
-📘 Rust Complete Course – Notes & Projects
+# 📘 Rust Complete Course – Notes & Projects
 
-Welcome to my Rust Complete Course repository!
-This repo contains my Rust study notes, concepts, explanations, and practical projects including the Guessing Game and Tic Tac Toe.
+Welcome to my **Rust Complete Course** repository!  
+This repo contains my Rust study notes, concepts, explanations, and hands-on projects including the **Guessing Game** and **Tic Tac Toe**.
 
-🚀 Course Coverage
+---
+
+## 🚀 Course Coverage
 
 Below is everything I covered in my Rust learning journey:
 
-➡️ Introduction
-➡️ What is Rust?
-➡️ Course Overview & Prerequisites
-➡️ Why learn Rust? Future Scope
-➡️ Rust History
-➡️ Installing Rust (rustup & cargo)
-➡️ First Program in Rust
-➡️ Data Types
-  Integer types
-  Float, Bool, Char
-  &str
-  String
-➡️ Mutable vs Immutable
-➡️ Functions
-➡️ Ownership
-  Ownership rules
-  Scope
-  Stack vs Heap
-  Assignment & Moves
-  Ownership with Functions
-  Avoiding Ownership Issues
-➡️ Borrowing
-  Immutable references
-  Mutable references
-  Reference rules
-  Dereferencing
-  Auto-deref
-  Dangling references
-➡️ Programming Concepts
-  Type inference
-  Shadowing
-  If-Else
-  Loops
-  Match
-➡️ Input/Output
-➡️ Projects
-  Guessing Game
-  Tic Tac Toe
+### 🔹 Introduction
+- What is Rust?
+- Course Overview & Prerequisites  
+- Why Learn Rust? (Future Scope)  
+- Rust History  
+- Installing Rust (rustup & cargo)  
+- Writing Your First Rust Program  
+
+---
+
+## 🧱 Data Types & Variables
+
+- Integer Types  
+- Float, Bool, Char  
+- `&str`  
+- `String`  
+- Mutable vs Immutable Variables  
+
+---
+
+## 🧩 Functions & Core Rust Concepts
+- Function definitions & usage  
+- Type inference  
+- Shadowing  
+- If-Else  
+- Loops  
+- Match statements  
+- I/O (Input/Output)
+
+---
+
+## 🧠 Ownership System (Rust’s Core Concept)
+- Ownership Rules  
+- Variable Scope  
+- Stack vs Heap  
+- Moves & Assignments  
+- Ownership with Functions  
+- Avoiding Ownership Issues  
+
+---
+
+## 🔗 Borrowing & References
+- Immutable References  
+- Mutable References  
+- Reference Rules  
+- Dereferencing  
+- Auto-Deref  
+- Dangling References  
+
+---
+
+## 🕹️ Projects
+
+### 🎯 Guessing Game  
+Simple CLI game demonstrating:
+- User input  
+- Random number generation  
+- Parsing  
+- Loops & match patterns  
+
+### ❌⭕ Tic Tac Toe  
+Terminal-based game covering:
+- Arrays/Vectors  
+- Mutable game state  
+- Game loops  
+- Win/draw detection  
+
+---
+
+## 📦 How to Run the Projects
+
+```bash
+cargo run
